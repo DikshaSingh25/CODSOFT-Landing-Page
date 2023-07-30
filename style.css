@@ -1,0 +1,240 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #71C9CE;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 35px;
+} 
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+} 
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 50px;
+}
+
+main {
+  padding: 2rem;
+}
+
+.slider{
+    margin: -8px auto;
+    width: 82vw;
+    overflow: hidden;
+}
+
+.hero {
+  background-image: url("hero.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 4rem;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+  color: black;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #A6E3E9;
+  color: black;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+}
+
+.cta-button:hover {
+  background-color: #71C9CE;
+}
+
+.destinations {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.destination-card {
+  max-width: 300px;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.destination-card img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-us {
+  background-color: #E3FDFD;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-us {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contact-us h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contact-us p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.contact-us form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-us label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.contact-us input,
+.contact-us textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-us textarea {
+  resize: vertical;
+}
+
+.contact-us button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #A6E3E9;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-us button:hover {
+  background-color: #71C9CE;
+}
+
+
+footer {
+  background-color: #71C9CE;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info, .social-media {
+  flex: 1;
+}
+
+.contact-info h3, .social-media h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.social-media ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media a {
+  font-size: 24px;
+  color: #A6E3E9;
+  text-decoration: none;
+}
+
+/* Social media icons (Font Awesome) */
+.fa {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #A6E3E9;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+  padding: 5px;
+}
+
+.fa:hover {
+  background-color: #A6E3E9;
+  color: #fff;
+}
+
+

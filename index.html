@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Adventures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Travel Adventures</h1>
+            <ul>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <main>
+
+        <div class="slider">
+            <img src="https://source.unsplash.com/1000x300/?travel" alt="image not found">
+        </div>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Discover the World</h2>
+                <p>Explore breathtaking destinations with us.</p>
+                <a href="#contact" class="cta-button">Get Started</a>
+            </div>
+        </section>
+
+        <h1>Featured Destinations</h1>
+        <div id="destinations" class="destinations">
+            
+            <div class="destination-card">
+                <img src="delhi-tour.webp" alt="Destination 1">
+                <h4>Delhi</h4>
+                <a href="#contact" class="cta-button">Explore Now!</a>
+            </div>
+            <div class="destination-card">
+                <img src="mumbai-tour.webp" alt="Destination 2">
+                <h4>Mumbai</h4>
+                <a href="#contact" class="cta-button">Explore Now!</a>
+            </div>
+            <div class="destination-card">
+              <img src="chennai-tour.webp" alt="Destination 1">
+              <h4>Chennai</h4>
+              <a href="#contact" class="cta-button">Explore Now!</a>
+          </div>
+          </div>
+
+          <h1>Explore Our Destinations by Region</h1>
+        <div id="destinations" class="destinations">
+            
+            <div class="destination-card">
+                <img src="rajasthan-package.webp" alt="Destination 1" width="300px">
+                <h4>Rajasthan Tours</h4>
+                <a href="#contact" class="cta-button">More!</a>
+            </div>
+            <div class="destination-card">
+                <img src="up-package.webp" alt="Destination 2" width="300px">
+                <h4>Uttar Pradesh Tours</h4>
+                <a href="#contact" class="cta-button">More!</a>
+            </div>
+            <div class="destination-card">
+              <img src="j&k-package.webp" alt="Destination 1" width="300px">
+              <h4>Jammu & Kashmir Tours</h4>
+              <a href="#contact" class="cta-button">More!</a>
+          </div>
+          </div>
+
+        <section class="about-us">
+          <div class="container">
+              <h2>About Us</h2>
+              <p>
+                  Welcome to our beautiful destination! We are passionate about providing you with the best travel experiences and making your trip memorable. Whether you are seeking adventure or relaxation, we have it all.
+              </p>
+              <p>
+                  Our team of dedicated experts is committed to ensuring you have a hassle-free journey from start to finish. We take care of all the details so you can focus on creating wonderful memories.
+              </p>
+              <p>
+                  Explore our website and discover the breathtaking landscapes, rich culture, and exciting activities that await you. We look forward to being a part of your unforgettable adventure!
+              </p>
+          </div>
+      </section>
+
+        <section class="contact-us">
+          <div class="container">
+              <h2>Contact Us</h2>
+              <p>If you have any questions or need further information, please don't hesitate to get in touch with us.</p>
+              <form action="submit_form.php" method="POST">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="4" required></textarea>
+
+                  <button type="submit">Send Message</button>
+              </form>
+          </div>
+      </section>
+    </main>
+
+    <footer>
+    <div class="footer-content">
+      <div class="contact-info">
+          <h3>Contact Us</h3>
+          <p>Name: Diksha Singh</p>
+          <p>Email: contact@gmail.com</p>
+          <p>Phone: +1 (123) 456-7890</p>
+          
+      </div>
+      <div class="social-media">
+          <h3>Follow Us</h3>
+          <ul>
+              <li><img src="twitter.png" class="fa fa-facebook"></li>
+              <li><img src="insta.png" class="fa fa-twitter"></li>
+              <li><img src="face.png" class="fa fa-instagram"></li>
+              <i class="fa-brands fa-twitter"></i>
+              
+          </ul>
+      </div>
+  </div>
+    </footer>
+</body>
+</html>
