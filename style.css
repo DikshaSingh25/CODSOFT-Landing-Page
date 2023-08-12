@@ -8,6 +8,8 @@ header {
   background-color: #71C9CE;
   color: #fff;
   padding: 1rem;
+  position: fixed;
+  width: 100%;
 }
 
 nav {
@@ -37,9 +39,15 @@ main {
 }
 
 .slider{
-    margin: -8px auto;
+    margin: 72px auto;
     width: 82vw;
     overflow: hidden;
+}
+
+.dest{
+  padding: 7rem;
+    margin-bottom: -69px;
+    margin-left: -94px;
 }
 
 .hero {
@@ -47,7 +55,7 @@ main {
   background-position: center;
   color: #fff;
   text-align: center;
-  padding: 4rem;
+  padding: .5rem;
 }
 
 .hero-content {
